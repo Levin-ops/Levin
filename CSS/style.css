@@ -213,21 +213,21 @@ img {
 @media screen and (max-width: 1150px) {
   .nav__menu {
     position: fixed;
-    top: 0;
+    top: -100%;
     left: 0;
-    background-color: hsla(0, 0%, 0%, -75);
+    background-color: hsla(0, 0%, 0%, .5);
     width: 100%;
     padding-block: 1.8rem 5rem;
     text-align: center;
     backdrop-filter: blur(8px);
-    transition: top 0.4;
+    transition: top .4s;
   }
 }
-
+ 
 .nav__title,
 .nav__name,
 .nav__close {
-  color: var(--black-color);
+  color: var(--white-color);
 }
 
 .nav__title {
@@ -276,7 +276,7 @@ img {
 
 .nav__link::after{
     content: "";
-    width: 25%;
+    width: 0;
     height: 2px;
     background-color: var(--white-color);
     position: absolute;
@@ -285,4 +285,56 @@ img {
     transition: width .3s;
 }
 
-.nav
+.nav__link:hover{
+    color: var(--white-color);
+}
+
+.nav__link:hover::after{
+    width: 25%;
+}
+
+.nav__close{
+    position: absolute;
+    font-size: 1.5rem;
+    top: 1rem;
+    right: 1.5rem;
+    cursor: pointer;
+}
+
+
+/* /* Show Menu  */
+
+.show-menu{
+    top: 0;
+} 
+
+/* HOME */
+.home__container{
+    padding-top: 2rem;
+}
+
+.home__name{
+    font-size: var(--biggest-font-size);
+    text-align: center;
+}
+
+.home__profile{
+    position: relative;
+    justify-self: center;
+}
+
+.home__image{
+    width: 220px;
+}
+
+.hom__img{
+    /* position: relative;
+    z-index: 10; */
+}
+
+.home__shadow{
+    width: 100%;
+    height: 100%;
+    background-color: var(--container-color);
+}
+
