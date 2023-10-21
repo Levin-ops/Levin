@@ -1,5 +1,5 @@
 
-
+// Showing Menu
 const navMenu = document.getElementById('nav-menu'),
       navToggle= document.getElementById('nav-toggle'),
       navClose = document.getElementById('nav-close');
@@ -25,3 +25,11 @@ const linkAction = () =>{
 }
 
 navLink.forEach(x => x.addEventListener('click', linkAction))
+
+// Shadow Header
+
+const shadowHeader = () => {
+    const header = document.getElementById('header')
+    this.scrollY >= 50 ? header.classList.add(`shadow-header`): header.classList.remove('shadow-header')
+}
+window.addEventListener('scroll', shadowHeader)
