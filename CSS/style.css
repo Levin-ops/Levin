@@ -649,3 +649,8 @@ img {
   right: -2px;
   top: -2px;
 }
+
+.services__title{
+  font-size: var(--h2-font-size);
+  margin: 1.25rem;
+}
