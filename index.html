@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Design One</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="/Assets/_4945137c-6b55-4f22-befd-8f2e0e37a748.jpeg"
+      type="image/jpg"
+    />
+  </head>
+  <body>
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav_logo">Levin Mwambi</a>
+        <div onclick="hideNavBar()" class="nav_menu" id="nav_menu">
+          <ul class="nav_list">
+            <li class="nav_item">
+              <a onclick="hideNavBar()" href="#about" class="nav_link">
+                <i class="bx bx-right-top-arrow-circle"></i>
+                <span>About</span>
+              </a>
+            </li>
+
+            <li class="nav_item">
+              <a onclick="hideNavBar()" href="#experience" class="nav_link">
+                <i class="bx bx-right-top-arrow-circle"></i>
+                <span>Experience</span>
+              </a>
+            </li>
+
+            <li class="nav_item">
+              <a onclick="hideNavBar()" href="#skills" class="nav_link">
+                <i class="bx bx-right-top-arrow-circle"></i>
+                <span>Skills</span>
+              </a>
+            </li>
+
+            <li class="nav_item">
+              <a onclick="hideNavBar()" href="#projects" class="nav_link">
+                <i class="bx bx-right-top-arrow-circle"></i>
+                <span>Projects</span>
+              </a>
+            </li>
+
+            
+
+            <li class="nav_item">
+              <a onclick="hideNavBar()" href="#contact" class="nav_link">
+                <i class="bx bx-right-top-arrow-circle"></i>
+                <span>Contact</span>
+              </a>
+            </li>
+          </ul>
+
+          <!-- close button -->
+          <div class="nav_close" id="nav_close">
+            <i onclick="hideNavBar()" class="bx bx-x"></i>
+          </div>
+
+          <div class="nav_socials">
+            <a
+              href="https://twitter.com/ArthurMwangany1"
+              target="_blank"
+              class="nav_social_link"
+              ><img src="/Assets/twitter-x-fill.png" alt=""></i
+            ></a>
+            <a
+              href="https://github.com/Levin-ops"
+              target="_blank"
+              class="nav_social_link"
+              ><i class="bx bxl-github"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/mwambi-levin"
+              target="_blank"
+              class="nav_social_link"
+              ><i class="bx bxl-linkedin"></i
+            ></a>
+          </div>
+        </div>
+        <div class="nav_toggle" id="nav_toggle">
+          <i onclick="showNavbar()" class="bx bx-menu"></i>
+        </div>
+      </nav>
+    </header>
+
+    <div class="content">
+      <!-- About Me Section -->
+      <div id="about" class="wrapper">
+        <div class="testimonial">
+          <article>
+            <h1>About Me</h1>
+            <img src="/Assets/Pic 2.jpg" alt="" />
+            <blockquote>
+              I am a passionate <em>Web Developer</em> with a keen eye for
+              design and a knack for coding. I specialize in building sleek,
+              responsive websites that not only look great but also perform
+              flawlessly across devices. Whether you're looking to launch a
+              brand-new site, revamp an existing one, or optimize for
+              performance, I'm here to turn your vision into reality. Let's
+              collaborate and bring your digital dreams to life!
+            </blockquote>
+            <h5>Levin Mwambi</h5>
+            <p>Web Developer</p>
+          </article>
+        </div>
+      </div>
+
+      <!-- Experience section -->
+      <section class="experience" id="experience">
+        <h2>My <span>Journey</span></h2>
+        <div class="experience_row">
+            <div class="experience_column">
+              <h3 class="title">Education</h3>
+
+              <div class="experience_box">
+                <div class="experience_content">
+                  <div class="content">
+                    <div class="year">
+                      <i class="bx bxs-calendar">September 2014 - June 2018</i>
+                    </div>
+                    <h3>
+                      Jomo Kenyatta University of Agriculture & Technology
+                    </h3>
+                    <h4>BSc. Biochemistry & Molecular Biology</h4>
+                    <p>
+                      As a graduate with a BSc in Biochemistry and Molecular
+                      Biology, I have a strong understanding of biochemical
+                      processes and molecular mechanisms. I have conducted lab
+                      experiments, analyzed data, and mastered techniques like
+                      electrophoresis and spectrophotometry. My education has
+                      honed my analytical and problem-solving skills, preparing
+                      me to contribute effectively to research projects.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="experience_content">
+                  <div class="content">
+                    <div class="year">
+                      <i class="bx bxs-calendar"
+                        >September 2023 - February 2024</i
+                      >
+                    </div>
+                    <h3>Moringa School</h3>
+                    <h4>Software Engineering</h4>
+                    <p>
+                      As a graduate of a certificate course in Software
+                      Engineering from Moringa School, I have gained essential
+                      skills in software development, coding, and debugging. I
+                      have experience with programming languages such as
+                      JavaScript, Python, and SQL as well as React and Flask
+                      Frameworks. I have worked on projects involving web
+                      application development. My training also covered version
+                      control, and agile methodologies. Through this course, I
+                      am prepared to contribute effectively to software
+                      development teams and help solve real-world programming
+                      challenges.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <h3 class="title">Work Experience</h3>
+
+              <div class="experience_box">
+                <div class="experience_content">
+                  <div class="content">
+                    <div class="year">
+                      <i class="bx bxs-calendar"> August 2013- September 2014</i>
+                    </div>
+                    <h3>Cyber Cafe Attendant</h3>
+                    <p>
+                      As a cyber cafe attendant, I ensured the smooth running of
+                      the cafe by performing a variety of tasks. I assisted
+                      customers, provided guidance on using computers. I also
+                      monitored and maintained the computer systems,
+                      troubleshooted technical issues, and implemented security
+                      protocols to protect the network and users' data. I
+                      managed user accounts, tracked usage time, processed
+                      payments, and kept the business clean and organized. I
+                      ensured a positive and efficient experience for our
+                      customers.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="experience_content">
+                  <div class="content">
+                    <div class="year">
+                      <i class="bx bxs-calendar">June 2015 - September 2015</i>
+                    </div>
+                    <h3>Lab Attaché</h3>
+                    <p>
+                      As a lab attache in at Water Resource Management
+                      Authority, I ensured accurate and efficient analysis of
+                      water samples. I prepare samples, operated and maintained
+                      laboratory equipment, and conducted chemical and
+                      microbiological tests. I meticulously recorded data,
+                      analyzed results, and compiled detailed reports.Through
+                      these tasks, I contributed to delivering reliable water
+                      quality assessments.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="experience_content">
+                  <div class="content">
+                    <div class="year">
+                      <i class="bx bxs-calendar">
+                        September 2017 - February 2022</i
+                      >
+                    </div>
+                    <h3>Survey Chainman</h3>
+                    <p>
+                      As a survey chainman for APEC Consortium, I assisted in
+                      the accurate measurement and mapping of land. I set up and
+                      maintained survey equipment, helped in marking and
+                      measuring distances, and record data in the field. Through
+                      these tasks, I contributed to the accurate and efficient
+                      completion of surveying projects for the Kibwezi-Kitui
+                      Highway.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+  <!-- Skills Section-->
+        <section class="skills" id="skills">
+            <h2 class="heading">My <span>Skills</span></h2>
+            <div class="skills_row">
+                <div class="skills_column">
+                    <h3 class="title">Coding Skills</h3>
+                    <div class="skills_box">
+                        <div class="skills_content">
+                            <div class="progress">
+                                <h3>HTML <span> 90%</span></h3>
+                                <div class="bar"><span></span></div>
+                            </div>
+
+                            <div class="progress">
+                                <h3>CSS<span> 70%</span></h3>
+                                <div class="bar"><span></span></div>
+                            </div>
+                            
+                            <div class="progress">
+                                <h3>JavaScript<span> 65%</span></h3>
+                                <div class="bar"><span></span></div>
+                            </div>
+
+                            <div class="progress">
+                                <h3>Python<span> 75%</span></h3>
+                                <div class="bar"><span></span></div>
+                            </div>
+
+                            <div class="progress">
+                                <h3>React<span> 65%</span></h3>
+                                <div class="bar"><span></span></div>
+                            </div>
+
+                            <div class="progress">
+                                <h3>Flask<span> 70%</span></h3>
+                                <div class="bar"><span></span></div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills_column">
+                    <h3 class="title">Professional Skills</h3>
+                    <div class="skills_box">
+                        <div class="skills_content">
+                            <div class="progress">
+                                <h3>Web Design<span> 60%</span></h3>
+                                <div class="bar"><span></span></div>
+                            </div>
+
+                            <div class="progress">
+                                <h3>Analytical Thinking<span> 80%</span></h3>
+                                <div class="bar"><span></span></div>
+                            </div>
+                            
+                            <div class="progress">
+                                <h3>Web Development<span> 65%</span></h3>
+                                <div class="bar"><span></span></div>
+                            </div>
+
+                            <div class="progress">
+                                <h3>Book Keeping<span> 80%</span></h3>
+                                <div class="bar"><span></span></div>
+                            </div>
+
+                            <div class="progress">
+                                <h3>Communication Skills<span> 75%</span></h3>
+                                <div class="bar"><span></span></div>
+                            </div>
+
+                            <div class="progress">
+                                <h3>Database Management<span> 70%</span></h3>
+                                <div class="bar"><span></span></div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+      <!-- Projects Section -->
+      <div id="projects" class="section">
+        <h2>My Projects</h2>
+
+        <div class="card">
+          <p class="card-title">GitHub Scrapper</p>
+          <p class="small-desc">
+            This Python script is a web scraping tool developed to extract
+            information about the top repositories hosted on GitHub across
+            various topics. It utilizes Requests library for fetching web pages
+            and BeautifulSoup for parsing HTML content. The extracted data
+            includes repository names, usernames, star counts, and URLs.
+          </p>
+          <div class="go-corner">
+            <div class="go-arrow"><a target="_blank" href="https://github.com/Levin-ops/Scrapper">→</a></div>
+          </div>
+        </div>
+
+        <div class="card">
+          <p class="card-title">Book Management System</p>
+          <p class="small-desc">
+            This project is a simple book management system that allows users to
+            perform various actions such as searching for books, borrowing
+            books, leaving reviews, and administrative tasks like
+            adding/deleting books and managing users.
+          </p>
+          <div class="go-corner">
+            <div class="go-arrow"><a target="_blank" href="https://github.com/Levin-ops/Mach-Book-Management-System">→</a></div>
+          </div>
+        </div>
+
+        <div class="card">
+          <p class="card-title">Events Platform</p>
+          <p class="small-desc">
+            An application for organizing, managing and booking events. This project provided a valuable learning experience that helped us develop technical skills, problem-solving abilities, and a deeper understanding of software development principles.
+          </p>
+          <div class="go-corner">
+            <div class="go-arrow"><a target="_blank" href="">→</a></div>
+          </div>
+        </div>
+
+
+      <!-- Contact Section -->
+      <section class="contact" id="contact">
+        
+          <h2 class="heading">Contact <span>Me</span></h2>
+          <form action="#">
+            <div class="input_box">
+              <div class="input_field">
+                <input type="text" placeholder="Full Name" required>
+                <span class="focus"></span>
+              </div>
+
+              <div class="input_field">
+                <input type="text" placeholder="Email" required>
+                <span class="focus"></span>
+              </div>
+
+              <div class="input_field">
+                <input type="number" placeholder="Mobile Number" required>
+                <span class="focus"></span>
+              </div>
+
+              <div class="input_field">
+                <input type="text" placeholder="Email Subject" required>
+                <span class="focus"></span>
+              </div>
+
+              
+            </div>
+
+
+
+          <div class="textarea_field">
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
+            <span class="focus"></span>
+          </div>
+
+          <div class="btn_box btns">
+            <button type="submit" class="button">
+              <p>Submit</p>
+            </button>
+          </div>
+
+          </form>
+      </section>
+    </div>
+
+<!-- Footer -->
+    <footer class="footer">
+      <div class="footer_text">
+        <p>&copy; 2024 Levin Mwambi | All rights reserved.</p>
+      </div>
+
+      <div class="footer_icon_top">
+        <a href="#about"><i class='bx bx-up-arrow-alt'></i></a>
+      </div>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>
