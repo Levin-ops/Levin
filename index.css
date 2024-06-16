@@ -716,9 +716,9 @@ font-size: 48px;
     align-items: center;
     position: relative;
     padding: 0.6em 2em;
-    border: rgb(15, 16, 15) solid 0.15em;
+    border: #344e41 solid 0.15em;
     border-radius: 0.25em;
-    color: rgb(9, 9, 9);
+    color: #344e41;
     font-size: 1.5em;
     font-weight: 600;
     cursor: pointer;
@@ -733,11 +733,11 @@ font-size: 48px;
   }
   
   .button:hover {
-    color: #212121;
+    color: #DAD7CD;
   }
   
   .button:active {
-    border-color: grey;
+    border-color: #588157;
   }
   
   .button::after, .button::before {
@@ -745,7 +745,7 @@ font-size: 48px;
     position: absolute;
     width: 9em;
     aspect-ratio: 1;
-    background: gray;
+    background: #588157;
     opacity: 50%;
     border-radius: 50%;
     transition: transform 500ms, background 300ms;
