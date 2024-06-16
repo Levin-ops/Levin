@@ -294,16 +294,7 @@ article h1 {
   text-align: center;
 }
 
-article h1:after {
-  content: "";
-  height: 5px;
-  width: 225px;
-  background-color: var(--primary-color);
-  display: block;
-  margin: auto;
-  letter-spacing: 1.5px;
-  align-items: center;
-}
+
 
 article img {
   height: 200px;
