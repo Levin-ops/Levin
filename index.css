@@ -302,6 +302,7 @@ article h1:after {
   display: block;
   margin: auto;
   letter-spacing: 1.5px;
+  align-items: center;
 }
 
 article img {
