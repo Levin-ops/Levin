@@ -120,6 +120,7 @@ a{
         transition: transform .4s ease-out, visibility .4s;
     }
     
+
     .nav_item:nth-child(1){
         transition-delay: .1s;
     }
@@ -159,10 +160,11 @@ a{
     display: inline-flex;
     align-items: center;
     transition: opacity .4s;
+    
 }
 
 .nav_link i{
-    font-size: 3rem;
+    font-size: 2rem;
     position: absolute;
     opacity: 0;
     visibility: hidden;
