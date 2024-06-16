@@ -91,7 +91,7 @@
       </nav>
     </header>
 
-    <div class="content">
+    <div class="container">
       <!-- About Me Section -->
       <div id="about" class="wrapper">
         <div class="testimonial">
@@ -231,12 +231,13 @@
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-      </section>
+          </div> 
+        </section>
+        
+     
 
 
-  <!-- Skills Section-->
+        <!-- Skills Section-->
         <section class="skills" id="skills">
             <h2 class="heading">My <span>Skills</span></h2>
             <div class="skills_row">
@@ -319,91 +320,96 @@
         </section>
 
       <!-- Projects Section -->
-      <section id="projects" class="section">
+      <section id="projects" class="projectscontainer">
         <h2>My Projects</h2>
 
         <div class="card">
-          <p class="card-title">GitHub Scrapper</p>
-          <p class="small-desc">
-            This Python script is a web scraping tool developed to extract
-            information about the top repositories hosted on GitHub across
-            various topics. It utilizes Requests library for fetching web pages
-            and BeautifulSoup for parsing HTML content. The extracted data
-            includes repository names, usernames, star counts, and URLs.
-          </p>
-          <div class="go-corner">
-            <div class="go-arrow"><a target="_blank" href="https://github.com/Levin-ops/Scrapper">→</a></div>
+          <div class="card-details">
+            <p class="text-title">GitHub Scrapper</p>
+            <p class="text-body">This Python script is a web scraping tool developed to extract
+              information about the top repositories hosted on GitHub across
+              various topics. It utilizes Requests library for fetching web pages
+              and BeautifulSoup for parsing HTML content. The extracted data
+              includes repository names, usernames, star counts, and URLs.</p>
           </div>
+          <button class="card-button"><a target="_blank" href="">View Repository</a></button>
         </div>
 
         <div class="card">
-          <p class="card-title">Book Management System</p>
-          <p class="small-desc">
-            This project is a simple book management system that allows users to
-            perform various actions such as searching for books, borrowing
-            books, leaving reviews, and administrative tasks like
-            adding/deleting books and managing users.
-          </p>
-          <div class="go-corner">
-            <div class="go-arrow"><a target="_blank" href="https://github.com/Levin-ops/Mach-Book-Management-System">→</a></div>
+          <div class="card-details">
+            <p class="text-title">Book Management System</p>
+            <p class="text-body">This project is a simple book management system that allows users to
+              perform various actions such as searching for books, borrowing
+              books, leaving reviews, and administrative tasks like
+              adding/deleting books and managing users.</p>
           </div>
+          <button class="card-button"><a target="_blank" href="">View Repository</a></button>
         </div>
 
         <div class="card">
-          <p class="card-title">Events Platform</p>
-          <p class="small-desc">
-            An application for organizing, managing and booking events. This project provided a valuable learning experience that helped us develop technical skills, problem-solving abilities, and a deeper understanding of software development principles.
+          <div class="card-details">
+            <p class="text-title">Events Platform</p>
+            <p class="text-body"> An application for organizing, managing and booking events. This project provided a valuable learning experience that helped us develop technical skills, problem-solving abilities, and a deeper understanding of software development principles.
           </p>
-          <div class="go-corner">
-            <div class="go-arrow"><a target="_blank" href="">→</a></div>
           </div>
+          <button class="card-button"><a target="_blank" href="">View Repository</a></button>
         </div>
+
+        <div class="card">
+          <div class="card-details">
+            <p class="text-title">Personal Portfolio</p>
+            <p class="text-body"> The Personal Portfolio Website is a comprehensive showcase of my skills, projects, and professional experiences as a developer. Designed with a clean and modern aesthetic, this website provides a platform to highlight my technical expertise, creative projects, and career accomplishments.</p>
+          </div>
+          <button class="card-button"><a target="_blank" href="">View Repository</a></button>
+        </div>
+
       </section>
 
-  <!-- Contact Section -->
-  <section class="contact" id="contact">
-        
-    <h2 class="heading">Contact <span>Me</span></h2>
-    <form action="#">
-      <div class="input_box">
-        <div class="input_field">
-          <input type="text" placeholder="Full Name" required>
+               <!-- Contact Section -->
+      <section class="contact" id="contact">
+            
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <form action="#">
+          <div class="input_box">
+            <div class="input_field">
+              <input type="text" placeholder="Full Name" required>
+              <span class="focus"></span>
+            </div>
+
+            <div class="input_field">
+              <input type="text" placeholder="Email" required>
+              <span class="focus"></span>
+            </div>
+
+            <div class="input_field">
+              <input type="number" placeholder="Mobile Number" required>
+              <span class="focus"></span>
+            </div>
+
+            <div class="input_field">
+              <input type="text" placeholder="Email Subject" required>
+              <span class="focus"></span>
+            </div>
+
+            
+          </div>
+
+
+
+        <div class="textarea_field">
+          <textarea name="" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
           <span class="focus"></span>
         </div>
 
-        <div class="input_field">
-          <input type="text" placeholder="Email" required>
-          <span class="focus"></span>
+        <div class="btn_box btns">
+          <button type="submit" class="button">
+            <p>Submit</p>
+          </button>
         </div>
-
-        <div class="input_field">
-          <input type="number" placeholder="Mobile Number" required>
-          <span class="focus"></span>
-        </div>
-
-        <div class="input_field">
-          <input type="text" placeholder="Email Subject" required>
-          <span class="focus"></span>
-        </div>
-
-        
-      </div>
-
-
-
-    <div class="textarea_field">
-      <textarea name="" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
-      <span class="focus"></span>
-    </div>
-
-    <div class="btn_box btns">
-      <button type="submit" class="button">
-        <p>Submit</p>
-      </button>
-    </div>
-
-    </form>
-</section>
+        </form>
+        </section>
+  </div>
+      
 
 <!-- Footer -->
     <footer class="footer">
